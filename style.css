@@ -1,0 +1,44 @@
+body{
+    background-image: url(IMG_3013.jpg);
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .bird-container{
+    width: 120px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    /* forwards the animation remain in the state of the end */
+    animation: birdAnim 4s  infinite;
+  }
+  
+  .bird-container img{
+    width: 100%;
+  }
+  
+  @keyframes birdAnim{
+    0%{
+      left: 10%;
+      top: 20%;
+      transform: rotate(20deg)
+    }
+    30%{
+      left: 20%;
+      top: 40%;
+  
+      transform: rotate(120deg)
+    }
+    60%{
+      left: 50%;
+      top: 30%;
+      transform: rotate(160deg)
+  
+    }
+    100%{
+      left: 10%;
+      top: 20%;
+      transform: rotate(20deg)
+      
+    }
+  }
