@@ -1,7 +1,7 @@
 body{
     background-image: url(IMG_3013.jpg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 40vh;
   }
 
   .bird-container{
