@@ -14,7 +14,7 @@ body{
   }
   
   .character-container img{
-    width: 100%;
+    width: 40%;
   }
   
   @keyframes characterAnim{
