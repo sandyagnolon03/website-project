@@ -4,7 +4,7 @@ body{
     min-height: 40vh;
   }
 
-  .bird-container{
+  .character-container{
     width: 120px;
     position: absolute;
     left: 10%;
