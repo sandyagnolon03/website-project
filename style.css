@@ -13,11 +13,11 @@ body{
     animation: birdAnim 4s  infinite;
   }
   
-  .bird-container img{
+  .character-container img{
     width: 100%;
   }
   
-  @keyframes birdAnim{
+  @keyframes characterAnim{
     0%{
       left: 10%;
       top: 20%;
