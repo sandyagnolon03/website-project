@@ -5,16 +5,22 @@ body{
   }
 
   .character-container{
-    width: 120px;
+    width: 300px;
     position: absolute;
     left: 10%;
     top: 40%;
     /* forwards the animation remain in the state of the end */
     animation: birdAnim 4s  infinite;
   }
-  
-  .character-container img{
-    width: 40%;
+  .character{
+    width: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+  }
+
+  .character img{
+    width: 100%;
   }
   
   @keyframes characterAnim{
