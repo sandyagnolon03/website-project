@@ -21,7 +21,7 @@
     <button type="button" class="btn btn-primary"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
 
-        <button type="button" class="btn btn-primary">go to race</button>
+        <button type="button" class="btn btn-primary">GO TO RACE</button>
 
   </ul>
 </nav>
@@ -29,12 +29,26 @@
 </body>
 </html>
 
+@import "bootstrap/scss/bootstrap";
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      responsive: true,
+      values: auto pointer grab,
+    )
+  )
+);
+
 <link rel="stylesheet" href="style.css">
 
 <div class="text">
   INSTRUCTIONS <p>
     
-    So the instructions for playing this game are very <p>
+    So the instructions for playing this game are very EASY!!<p>
 
     </p>  - To RUN press the W button <p>
 
